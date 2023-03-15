@@ -1,0 +1,23 @@
+nav {
+    position: sticky;
+    top: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 1.2em 0;
+    font-family: Raleway, sans-serif;
+}
+
+img {
+    display: inline-block;
+    width: 30%;
+    margin: calc(10%/6);
+    transition: 1s transform;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
